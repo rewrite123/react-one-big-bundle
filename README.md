@@ -1,8 +1,10 @@
 # react-one-big-bundle
 This repo is to act as starter code for a react project where you can only compile the code into one big bundled js file. I like using this for small applets, as there is no chunking and it allows for you to add chunks of code to an existing site pretty easily. 
-![Flying airplane gif](https://github.com/rewrite123/react-one-big-bundle/blob/master/src/assets/oldest.gif)
 
-It's kind of [redacted] to be honest.
+![Flying airplane gif](https://github.com/rewrite123/react-one-big-bundle/blob/master/src/assets/oldest.gif)
+Actual image of me flying through the webpack docs
+
+It's kind of **[redacted]** to be honest.
 But, it's better than ejecting from CRA imo.
 # 
 ### Here are some scripts you might want to try
