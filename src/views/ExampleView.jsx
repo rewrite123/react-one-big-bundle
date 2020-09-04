@@ -54,6 +54,8 @@ const ExampleView = () => {
       </p>
       <div className='credits'>
         Isaac Hormel
+        <br />
+        <a href='https://github.com/rewrite123/react-one-big-bundle' target='_blank' rel='noreferrer'>Github repo</a>
       </div>
     </div>
   );
