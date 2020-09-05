@@ -23,7 +23,9 @@ To test that your bundle transpiled correctly after building, you can run the fo
 `
 npx serve .
 `
-Then, copy /testDist.html to the /dist folder and rename it to index.html. You should see your webpage running when you go to localhost:5000.
+Then, copy /index.html to the /dist folder. You should see your webpage running when you go to localhost:5000.
+
+An even easier method if you want to keep the original index.html from your public folder is to edit the HtmlWebpackPlugin in /webpack.conf.js so that it does not just run when developing.
 
 Please be aware of some pitfalls of this project. This can lead to obscenly large files and does not include all the niceties of other projects like CRA or Expo.
 
