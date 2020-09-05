@@ -42,6 +42,7 @@ const ExampleView = () => {
       </p>
       <p className='content-text'>
         Then, copy /index.html to the /dist folder. You should see your webpage running when you go to 
+        {' '}
         <a href='http://localhost:5000' target='_blank' rel="noreferrer">localhost:5000</a>
         .
       </p>
