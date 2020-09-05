@@ -41,10 +41,12 @@ const ExampleView = () => {
         npx serve .
       </p>
       <p className='content-text'>
-        Then, copy /testDist.html to the /dist folder and rename it to index.html. You should see your webpage running when you go to 
-        {' '}
+        Then, copy /index.html to the /dist folder. You should see your webpage running when you go to 
         <a href='http://localhost:5000' target='_blank' rel="noreferrer">localhost:5000</a>
         .
+      </p>
+      <p className='content-text'>
+        An even easier method if you want to keep the original index.html from your public folder is to edit the HtmlWebpackPlugin in /webpack.conf.js so that it does not just run when developing.
       </p>
       <p className='content-text'>
         Please be aware of some pitfalls of this project. This can lead to obscenly large files and does not include all the niceties of other projects like CRA or Expo.
@@ -53,8 +55,9 @@ const ExampleView = () => {
         That being said, you can easily customize anything you would like from the webpack.conf.js file or the other config files incuded. Nothing is hidden here.
       </p>
       <div className='credits'>
-        Isaac Hormel
-        <br />
+        <h2>
+          Isaac Hormel
+        </h2>
         <a href='https://github.com/rewrite123/react-one-big-bundle' target='_blank' rel='noreferrer'>Github repo</a>
       </div>
     </div>
